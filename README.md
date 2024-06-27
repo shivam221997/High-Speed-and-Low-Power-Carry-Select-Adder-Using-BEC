@@ -20,6 +20,10 @@ This causes a propagation delay as each carry bit ripples through the stages, im
 ## Proposed Method
 The proposed method replaces the RCA with Binary to Excess-1 Converter (BEC) in the CSA design to reduce propagation delay and power consumption. The main idea is to use BEC instead of RCA with carry-in (Cin) = 1, optimizing area and power.
 
+## Implementation
+Implementation Using Vivado (Xilinx)
+The implementation of the CSA using BEC is performed using Vivado (Xilinx). The design involves the following steps:
+
 ### 4-bit BEC with 2:1 mux.
 ![m2](https://github.com/shivam221997/High-Speed-and-Low-Power-Carry-Select-Adder-Using-BEC/assets/156662255/f6555bf7-2063-40e7-9c33-7e30a318f083)
    
@@ -29,17 +33,8 @@ The proposed method replaces the RCA with Binary to Excess-1 Converter (BEC) in 
  ### Block diagram of proposed 16-bit CSA with BEC
 ![m5](https://github.com/shivam221997/High-Speed-and-Low-Power-Carry-Select-Adder-Using-BEC/assets/156662255/ef210b94-6c24-463d-970c-1d7ad6fe52cc)
   
-## Implementation
-Implementation Using Vivado (Xilinx)
-The implementation of the CSA using BEC is performed using Vivado (Xilinx). The design involves the following steps:
-
-### Designing the 4-bit BEC with 2:1 mux.
-### Implementing the CSA with RCA and CSA with BEC.
-### Comparing the performance in terms of delay, area, and power consumption.
-
 ## output RTL-
 ![m7](https://github.com/shivam221997/High-Speed-and-Low-Power-Carry-Select-Adder-Using-BEC/assets/156662255/a83342a1-8f9e-4944-bae1-b1dcaaa8df4e)
-
 
 ## Results
 Delay and Area Evaluation
