@@ -48,13 +48,19 @@ Area: The use of BEC reduces the silicon area required for the adder circuit.
 The proposed CSA with BEC is more efficient in terms of power consumption and area compared to the conventional CSA with RCA.
 The BEC logic provides significant advantages by using fewer logic gates, eliminating carry propagation, and reducing delay and power consumption.
 Future improvements can be made by using parallel prefix adders for further area and delay reduction.
+
 ## References
 Ch. Daya Sagar, T. Krishna Moorti, “Design of low power flip-flop using MTCMOS Techniques,” International Journal of Computer Application and Information Technology, Vol.1, No.1, July 2012.
+
 Hematha S, Dhawan A, and Kar H, “Multithreshold CMOS Design for low power digital circuits,” TENCON 2008-2008 IEEE Region 10 Conference, pp.1-5, 2008.
+
 K. Roy, S. Mukhopadhyay, and H. Mahmoodi-Meimand, “Leakage current mechanisms and leakage reduction techniques in deepsubmicrometer CMOS circuits,” Proc. IEEE, vol.91, no. 2, pp. 305-327, Feb. 2003.
+
 Pawar Chander, Pokala Santhosh, Prasad Kurhe, “VLSI DESIGN OF FULL SUBTRACTOR USING MULTI-THRESHOLD CMOS TO REDUCE LEAKAGE CURRENT AND GROUND BOUNCE NOISE,” ISSN, Volume-2, Issue-2, 2015.
 
 ## Authors
 Shivam Kumar (2022H1230198H)
+
 Dikshant Bhatt (2022H1230169H)
+
 Nikhil Devkar (2022H1230166H)
